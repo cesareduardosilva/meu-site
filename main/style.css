@@ -306,9 +306,10 @@ div.category.produtos.header {
     border-bottom-width: 1px;
 }
 
-div.category.produtos.grid {
+.category.produtos.grid {
     box-sizing: border-box;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     height: 1199.5px;
     padding: 24px;
     width: 362px;
@@ -370,6 +371,11 @@ div.paginas {
 p {
     font-family: var(--fonte02);
     padding-top: 20px;
+}
+
+.produto-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* fim da main */
